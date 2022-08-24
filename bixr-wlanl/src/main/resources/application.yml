@@ -1,0 +1,40 @@
+server:
+  port: 2955
+
+spring:
+  application:
+    name: message-model
+
+# 其余参数初始化信息
+girl-friend:
+  # MM-dd 格式  例如 01-01  一月一日
+  birthday: "02-10"
+  # yyyy-MM-dd HH:ss:mm 格式
+  meet-the-time: "2020-12-31 00:00:00"
+
+# https://cron.qqe2.com/  可以去这里拿到自己想要的定时时间  这个是每分钟发一次
+cron: '0 * * * * ?'
+
+# 第三方天气 《聚合数据》
+third:
+  part:
+    weatch:
+      # 获得那个城市的天气  市级-县级 的  其他程序会报错
+      city: '邯郸'
+      key: ""
+      weather-prefix: http://apis.juhe.cn/simpleWeather/query?city=
+      weather-suffix: "&key=${third.part.weatch.key}"
+
+
+# 微信配置参数
+wechar:
+  argument:
+    # 接收方ID
+    to-user: ""
+    # app-id
+    app-id: ""
+    # app-secret
+    app-secret: ""
+    token: "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${wechar.argument.app-id}&secret=${wechar.argument.app-secret}"
+
+

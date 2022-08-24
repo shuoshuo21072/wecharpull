@@ -1,0 +1,105 @@
+{
+  "groups": [
+    {
+      "name": "girl-friend",
+      "type": "com.wlanl.wx.properties.GirlFriendProperties",
+      "sourceType": "com.wlanl.wx.config.CommonThirdPartConfiguration",
+      "sourceMethod": "girlFriendProperties()"
+    },
+    {
+      "name": "third.part.weatch",
+      "type": "com.wlanl.wx.properties.WeatherProperties",
+      "sourceType": "com.wlanl.wx.config.CommonThirdPartConfiguration",
+      "sourceMethod": "weatherProperties()"
+    },
+    {
+      "name": "wechar.argument",
+      "type": "com.wlanl.wx.properties.WeCharMessageModelProperties",
+      "sourceType": "com.wlanl.wx.config.CommonThirdPartConfiguration",
+      "sourceMethod": "weCharMessageModelProperties()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "girl-friend.birthday",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.GirlFriendProperties"
+    },
+    {
+      "name": "girl-friend.meet-the-time",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.GirlFriendProperties"
+    },
+    {
+      "name": "third.part.weatch.key",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeatherProperties"
+    },
+    {
+      "name": "third.part.weatch.key",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeatherProperties"
+    },
+    {
+      "name": "third.part.weatch.weather-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeatherProperties"
+    },
+    {
+      "name": "third.part.weatch.weather-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeatherProperties"
+    },
+    {
+      "name": "third.part.weatch.weather-suffix",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeatherProperties"
+    },
+    {
+      "name": "third.part.weatch.weather-suffix",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeatherProperties"
+    },
+    {
+      "name": "wechar.argument.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeCharMessageModelProperties"
+    },
+    {
+      "name": "wechar.argument.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeCharMessageModelProperties"
+    },
+    {
+      "name": "wechar.argument.app-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeCharMessageModelProperties"
+    },
+    {
+      "name": "wechar.argument.app-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeCharMessageModelProperties"
+    },
+    {
+      "name": "wechar.argument.to-user",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeCharMessageModelProperties"
+    },
+    {
+      "name": "wechar.argument.to-user",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeCharMessageModelProperties"
+    },
+    {
+      "name": "wechar.argument.token",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeCharMessageModelProperties"
+    },
+    {
+      "name": "wechar.argument.token",
+      "type": "java.lang.String",
+      "sourceType": "com.wlanl.wx.properties.WeCharMessageModelProperties"
+    }
+  ],
+  "hints": []
+}

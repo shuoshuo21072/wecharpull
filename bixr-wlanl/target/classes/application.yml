@@ -1,0 +1,37 @@
+server:
+  port: 2955
+
+spring:
+  application:
+    name: message-model
+
+# 其余参数初始化信息
+girl-friend:
+  # MM-dd 格式  例如 01-01  一月一日
+  birthday: "02-10"
+  # yyyy-MM-dd HH:ss:mm 格式
+  meet-the-time: "2020-12-31 00:00:00"
+
+cron: '0 * * * * ?'
+
+# 第三方天气 《聚合数据》
+third:
+  part:
+    weatch:
+      key: "a2e255f2e0095d56179369c961aefded"
+      weather-prefix: http://apis.juhe.cn/simpleWeather/query?city=
+      weather-suffix: "&key=${third.part.weatch.key}"
+
+
+# 微信配置参数
+wechar:
+  argument:
+    # 接收方ID
+    to-user: "o6Cyp6EDkf-UF5v0azte7nX-0NTk"
+    # app-id
+    app-id: "wx590eebd9a12251b4"
+    # app-secret
+    app-secret: "d43c80a5ab4a61346f5fba27f2e4f365"
+    token: "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${wechar.argument.app-id}&secret=${wechar.argument.app-secret}"
+
+

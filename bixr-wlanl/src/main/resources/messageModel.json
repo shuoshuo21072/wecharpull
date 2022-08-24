@@ -1,0 +1,50 @@
+{
+  "touser":"o6Cyp6EDkf-UF5v0azte7nX-0NTk",
+  "template_id":"_yO3Qqn6I-pKd9y7Iz7BOBssoT8nK6TzrJWjI1reOjk",
+  "data":{
+    "city": {
+      "value":"昆山",
+      "color":"#173177"
+    },
+    "currentTime": {
+      "value": "2022-08-23",
+      "color": "#7d7b7e"
+    },
+    "temperature": {
+      "value":"25",
+      "color":"#173177"
+    },
+    "direct": {
+      "value": "东北风",
+      "color":"#173177"
+    },
+    "aqi": {
+      "value": "31",
+      "color":"#173177"
+    },
+    "humidity": {
+      "value": "63",
+      "color":"#173177"
+    },
+    "power": {
+      "value": "2级",
+      "color":"#173177"
+    },
+    "info": {
+      "value": "晴",
+      "color":"#173177"
+    },
+    "love_day": {
+      "value": "9999999",
+      "color": "#6a2c70"
+    },
+    "birthday": {
+      "value": "9999999",
+      "color": "#f67280"
+    },
+    "care_box": {
+      "value": "xxx",
+      "color": "#f29900"
+    }
+  }
+}
